@@ -2,6 +2,7 @@
 
 .page {
   background-color: var(--background-color);
+  background-attachment: fixed;
 }
 
 .header {
@@ -36,7 +37,7 @@
 
 .decorated-zone {
   background-image: var(--decorated-zone-background-image);
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

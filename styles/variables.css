@@ -10,3 +10,21 @@
   --header-logo-color: #db00ff;
   --decorated-zone-background-image: url(../images/cover-image-dark.png);
 }
+
+@media (prefers-color-scheme: light) {
+  
+  :root.theme-light {
+    --background-color: #fff1f7;
+    --color-text: #353430;
+    --decorated-zone-background-image: url(../images/cover-image-light.png);
+    --color-header-menu-hover: #32312d66;
+    --header-logo-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --color-title-decor-text: #353430;
+    --color-article-text: #353430;
+  }
+  
+  .theme-light .header__lamp {
+    display: none;
+  }
+}
