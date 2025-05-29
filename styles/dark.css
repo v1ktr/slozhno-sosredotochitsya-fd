@@ -10,3 +10,7 @@
   --header-logo-color: #db00ff;
   --decorated-zone-background-image: url(../images/cover-image-dark.png);
 }
+
+.theme-dark .header__lamp {
+  display: initial;
+}
