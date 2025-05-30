@@ -1,6 +1,4 @@
 :root.theme-light {
-  --font-family: 'IBM Plex mono', arial, sans-serif;
-  --font-size-base: 18px;
   --background-color: #fff1f7;
   --color-text: #353430;
   --decorated-zone-background-image: url(../images/cover-image-light.png);
