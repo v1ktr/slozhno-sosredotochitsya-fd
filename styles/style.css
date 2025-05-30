@@ -17,10 +17,6 @@
   min-height: 668px;
 }
 
-.decorated-zone {
-  
-}
-
 .header__lamp {
   position: absolute;
   top: 10px;
@@ -216,7 +212,8 @@ div h3 {
   min-height: 668px;
 }
 
-.header::before, .footer::before {
+.header::before,
+.footer::before {
   content: '';
   position: absolute;
   bottom: 10px;
@@ -228,7 +225,8 @@ div h3 {
   border-color: var(--color-text);
 }
 
-.header::after, .footer::after {
+.header::after,
+.footer::after {
   content: '';
   position: absolute;
   top: 10px;
@@ -357,12 +355,14 @@ div h3 {
     min-height: 1024px;
   }
 
-  .header::before, .footer::before {
+  .header::before,
+  .footer::before {
     bottom: 20px;
     left: 20px;
   }
 
-  .header::after, .footer::after {
+  .header::after,
+  .footer::after {
     top: 20px;
     right: 20px;
   }
@@ -419,5 +419,4 @@ div h3 {
   .footer {
     min-height: 768px;
   }
-  
 }
